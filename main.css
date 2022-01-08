@@ -1,15 +1,24 @@
 .calculator {
     padding: 30px;
+    max-width: 500px;
 }
 
 .text {
-    padding: 20px 153px;
+    width: 99%;
+    margin: auto;
+    height: 50px;
+    padding: 5px 15px;
+    box-sizing: border-box;
     background-color: rgb(29, 29, 29);
     color: #fff;
     border: none;
+    font-size: 20px;
+    text-align: end;
+    display: block;
 }
 
 .number-box {
+    width: 100%;
     table-layout: fixed;
 }
 
