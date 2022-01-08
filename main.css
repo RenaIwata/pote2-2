@@ -1,0 +1,26 @@
+.calculator {
+    padding: 30px;
+}
+
+.text {
+    padding: 20px 153px;
+    background-color: rgb(29, 29, 29);
+    color: #fff;
+    border: none;
+}
+
+.number-box {
+    table-layout: fixed;
+}
+
+.numder {
+    padding: 10px 40px;
+    font-size: 20px;
+    width: 100%;
+}
+
+.numder-wide {
+    width: 100%;
+    padding: 10px 0 10px 0;
+    font-size: 20px;
+}

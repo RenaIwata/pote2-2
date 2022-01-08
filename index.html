@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="main.css">
+	<title>電卓</title>
+</head>
+
+<body>
+	<div class="calculator">
+		<input id="js-val-target" type="text" class="text" value="">
+		<table class="number-box">
+			<tr>
+				<th><input type="button" value="7" class="numder js-val-get"></th>
+				<th><input type="button" value="8" class="numder js-val-get"></th>
+				<th><input type="button" value="9" class="numder js-val-get"></th>
+				<th><input type="button" value="+" class="numder js-val-get js-operator"></th>
+			</tr>
+			<tr>
+				<th><input type="button" value="4" class="numder js-val-get"></th>
+				<th><input type="button" value="5" class="numder js-val-get"></th>
+				<th><input type="button" value="6" class="numder js-val-get"></th>
+				<th><input type="button" value="-" class="numder js-val-get js-operator"></th>
+			</tr>
+			<tr>
+				<th><input type="button" value="3" class="numder js-val-get"></th>
+				<th><input type="button" value="2" class="numder js-val-get"></th>
+				<th><input type="button" value="1" class="numder js-val-get"></th>
+				<th><input type="button" value="*" class="numder js-val-get js-operator"></th>
+			</tr>
+			<tr>
+				<th><input type="button" value="0" class="numder js-val-get"></th>
+				<th><input type="button" value="00" class="numder js-val-get"></th>
+				<th><input type="button" value="." class="numder js-val-get js-operator"></th>
+				<th><input type="button" value="/" class="numder js-val-get js-operator"></th>
+			</tr>
+			<tr>
+				<th colspan="2"><input id="js-clear" type="button" value="AC" class="numder-wide"></th>
+				<th colspan="2"><input id="js-total" type="button" value="=" class="numder-wide"></th>
+			</tr>
+		</table>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  
+	<script src="main.js"></script>
+</body>
+</html>
