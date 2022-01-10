@@ -11,14 +11,14 @@ document.addEventListener('DOMContentLoaded', function () {
     let flagOperator = false;
     let flagDot = false;
 
-    for (var i = 0; i < valGet.length; i++) {
+    for (let i = 0; i < valGet.length; i++) {
         valGet[i].addEventListener('click', function (e) {
             inputNum += this.value;
             valTarget.value = inputNum;
         });
     }
 
-    for (var i = 0; i < valZero.length; i++) {
+    for (let i = 0; i < valZero.length; i++) {
         valZero[i].addEventListener('click', function (e) {
             if(inputNum.slice( 0, 1 ) == 0) {
                 inputNum = "";
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    for (var i = 0; i < valOperator.length; i++) {
+    for (let i = 0; i < valOperator.length; i++) {
         valOperator[i].addEventListener('click', function (e) {
             if (flagOperator) {
                 inputNum = inputNum.slice(0, -1);
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    for (var i = 0; i < valDot.length; i++) {
+    for (let i = 0; i < valDot.length; i++) {
         valDot[i].addEventListener('click', function (e) {
             if (flagDot) {
                 inputNum = inputNum.slice(0, -1);
